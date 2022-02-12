@@ -3,90 +3,94 @@
 % !Mode:: "TeX:UTF-8"
 
 \documentclass{resume}
-\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
-% \usepackage{NotoSansSC_external}
-% \usepackage{NotoSerifCJKsc_external}
-% \usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
-\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{zh_CN-Adobefonts_external}
+\usepackage{linespacing_fix}
 \usepackage{cite}
 
+
 \begin{document}
-\pagenumbering{gobble} % suppress displaying page number
+  \pagenumbering{gobble}
 
-\name{你的大名}
+  \name{蒋天星}
 
-\basicInfo{
-  \email{yuanbin2014@gmail.com} \textperiodcentered\ 
-  \phone{(+86) 131-221-87xxx} \textperiodcentered\ 
-  \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}}
- 
-\section{\faGraduationCap\  教育背景}
-\datedsubsection{\textbf{上海交通大学}, 上海}{2013 -- 至今}
-\textit{在读硕士研究生}\ 信息与通信工程, 预计 2016 年 3 月毕业
-\datedsubsection{\textbf{西安电子科技大学}, 西安, 陕西}{2009 -- 2013}
-\textit{学士}\ 通信工程
+  \basicInfo{
+  \github[JiangTianxing]{https://github.com/jiangtianxing} \textperiodcentered\
+  \email{jx3536@163.com} \textperiodcentered\
+  \phone{(+86) 177-9106-3378}}
 
-\section{\faUsers\ 实习/项目经历}
-\datedsubsection{\textbf{黑科技公司} 上海}{2015年3月 -- 2015年5月}
-\role{实习}{经理: 高富帅}
-xxx后端开发
-\begin{itemize}
-  \item 实现了 xxx 特性
-  \item 后台资源占用率减少8\%
-  \item xxx
-\end{itemize}
+  \section{\faGraduationCap\  教育背景}
+  \datedsubsection{\textbf{电子科技大学}}{2020年9月 -- 至今}
+  \textit{在读硕士研究生}\ 计算机学院, 计算机技术
+  \datedsubsection{\textbf{重庆邮电大学}}{2015年9月 -- 2020年6月}
+  \textit{学士}\ 计算机学院, 智能科学与技术
 
-\datedsubsection{\textbf{分布式科学上网姿势}}{2014年6月 -- 至今}
-\role{Golang, Linux}{个人项目，和富帅糕合作开发}
-\begin{onehalfspacing}
-分布式负载均衡科学上网姿势, https://github.com/cyfdecyf/cow
-\begin{itemize}
-  \item 修复了连接未正常关闭导致文件描述符耗尽的 bug
-  \item 使用Chord 哈希 URL, 实现稳定可靠地分流
-  \item xxx (尽量使用量化的客观结果)
-\end{itemize}
-\end{onehalfspacing}
+\section{\faHeartO\ 获得荣誉}
+  \datedline{\textit{校级},重庆邮电大学\textbf{第七届``五四之星"}获得者(校园最高奖项),\textbf{网络建设之星}}{2018 年5 月}
+  \datedline{\textit{全国}, \textbf{``创青春"双创杯全国大学生创新创业大赛}, 铜奖}{2018 年6 月}
 
-\datedsubsection{\textbf{\LaTeX\ 简历模板}}{2015 年5月 -- 至今}
-\role{\LaTeX, Python}{个人项目}
-\begin{onehalfspacing}
-优雅的 \LaTeX\ 简历模板, https://github.com/billryan/resume
-\begin{itemize}
-  \item 容易定制和扩展
-  \item 完善的 Unicode 字体支持，使用 \XeLaTeX\ 编译
-  \item 支持 FontAwesome 4.5.0
-\end{itemize}
-\end{onehalfspacing}
+  \section{\faCogs\ 个人经历}
 
-% Reference Test
-%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
-%An xxx optimized for xxx\cite{verma2015large}
-%\begin{itemize}
-%  \item main contribution
-%\end{itemize}
 
-\section{\faCogs\ IT 技能}
-% increase linespacing [parsep=0.5ex]
-\begin{itemize}[parsep=0.5ex]
-  \item 编程语言: C == Python > C++ > Java
-  \item 平台: Linux
-  \item 开发: xxx
-\end{itemize}
+  \datedsubsection{\textbf{字节跳动}, 飞书-企业技术交付}{2021年10月 -- 2022年3月}
+  \role{实习生}{}
+  \begin{onehalfspacing}
+  基于企业需求，构件飞书集成解决方案；承接业务线产研的迁移工具，帮助飞书客户实现平滑迁移。
+  \end{onehalfspacing}
 
-\section{\faHeartO\ 获奖情况}
-\datedline{\textit{第一名}, xxx 比赛}{2013 年6 月}
-\datedline{其他奖项}{2015}
+  \datedsubsection{\textbf{红岩网校工作站}, 重庆邮电大学}{2017年6月 -- 2018年6月}
+  \role{\textbf{工作站站长}}
 
-\section{\faInfo\ 其他}
-% increase linespacing [parsep=0.5ex]
-\begin{itemize}[parsep=0.5ex]
-  \item 技术博客: http://blog.yours.me
-  \item GitHub: https://github.com/username
-  \item 语言: 英语 - 熟练(TOEFL xxx)
-\end{itemize}
+  \begin{onehalfspacing}
+    工作站成立于 2000 年，是共有 70 余名成员的\textbf{互联网团队}，拥有 \textbf{产品-视觉-前后端开发-运营}的完整开发流程，努力改善校内互联网环境，为师生提供便捷线上服务。
+    工作期间，负责管理各部门日常工作，开展150余次\textbf{技术培训}，领导20余项\textbf{应用开发}与\textbf{线上活动策划}。新媒体产品多次受到重庆各大媒体报道，并被重庆团市委积极转载，团队
+    获得``\textbf{全国优秀共青团支部}"等荣誉。
+  \end{onehalfspacing}
 
-%% Reference
-%\newpage
-%\bibliographystyle{IEEETran}
-%\bibliography{mycite}
+  % \datedsubsection{\textbf{仁荷大学}, 韩国仁川}{2018年7月 -- 2018年8月}
+  % \role{交换生}{}
+  % \begin{onehalfspacing}
+  %   重邮选派学生暑假赴韩国仁荷大学交换学习项目。探究韩国近现代历史、文化与国际关系等课题。
+  % \end{onehalfspacing}
+
+  % \datedsubsection{\textbf{鹏城实验室}, 网络安全中心}{2021年1月 -- 2021年3月}
+  % \role{实习生}{}
+  % \begin{onehalfspacing}
+  %   参与“鹏城靶场”项目，负责基于 MDATA 模型的网安知识图谱研究调研工作。
+  % \end{onehalfspacing}
+
+  % \datedsubsection{\textbf{重庆芯承索屹科技有限公司}, 重庆}{2019年1月 -- 2019年5月}
+  % \role{实习 服务端工程师}{产品部}
+  % \begin{onehalfspacing}
+  %   重邮创新创业基地团队。尝试自主创业，完成多个商业项目，负责各类产品服务端技术支持。
+  % \end{onehalfspacing}
+
+  \section{\faUsers\ 项目实践}
+  \datedsubsection{\textbf{AntFuzzer}, 智能合约漏洞检测工具}{2021年}
+  \role{框架开发}
+
+  \begin{onehalfspacing}
+    以代码覆盖率为导向的EOS智能合约漏洞检测工具。基于反射与\textbf{IOC容器}实现检测逻辑与底层服务分离，针对WASM虚拟机插桩实现\textbf{代码覆盖率}计算，并\textbf{融合AFL}，实现以代码覆盖率为导向的\textbf{测试用例生成}。基于EOS智能合约漏洞的攻击原理，实现相应检测功能。
+  \end{onehalfspacing}
+
+\datedsubsection{\textbf{智药科技官网}, 智能药物线上筛选平台}{2019年}
+  \role{服务端开发}
+
+  \begin{onehalfspacing}
+    具有药物筛选功能的\textbf{OMS应用}。独自完成数据库设计，实现用户、订单、文件三大模块功能接口，以及后台管理界面。
+    基于\textbf{RBAC}实现用户权限管理；通过\textbf{JWT}实现前后端分离；部署多台任务处理集群，通过\textbf{消息队列}完成异步任务处理与消息推送。
+  \end{onehalfspacing}
+
+  \section{\faInfo\ 相关技能}
+
+  \begin{onehalfspacing}
+    \begin{itemize}
+      \item 了解Java、Python、PHP等编程语言，熟悉服务端编程，实现过基础的IOC框架
+      \item 了解常用Linux命令，掌握常用的运维知识，能独立维护服务器
+      \item 掌握Git命令，能解决开发中遇到的常见问题，熟悉Git Flow工作流
+      \item 熟悉MySQL数据库，掌握基本的SQL优化、索引优化，了解数据库的事务机制、隔离级别
+      \item 熟悉常见的设计模式，能编写规范低耦合的代码
+      \item 了解Raft、Paxos分布式一致性算法基本原理
+    \end{itemize}
+  \end{onehalfspacing}
+
 \end{document}
