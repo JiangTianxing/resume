@@ -15,7 +15,7 @@
 
   \basicInfo{
   \github[JiangTianxing]{https://github.com/jiangtianxing} \textperiodcentered\
-  \email{jiangtianxing@bytedance.com} \textperiodcentered\
+  \email{jx3536@163.com} \textperiodcentered\
   \phone{(+86) 177-9106-3378}}
 
 \section{\faGraduationCap\  教育背景}
@@ -24,17 +24,13 @@
   \datedsubsection{\textbf{重庆邮电大学}}{2015年9月 -- 2020年6月}
   \textit{学士}\ 计算机学院, 智能科学与技术
 
-% \section{\faHeartO\ 获得荣誉}
-  % \datedline{\textit{校级},重庆邮电大学\textbf{第七届``五四之星"}获得者(校园最高奖项),\textbf{网络建设之星}}{2018 年5 月}
-  % \datedline{\textit{全国}, \textbf{``创青春"双创杯全国大学生创新创业大赛}, 铜奖}{2018 年6 月}
-
 \section{\faCogs\ 个人经历}
 
-  \datedsubsection{\textbf{字节跳动}, 飞书-企业技术交付}{2021年10月 -- 2022年3月}
-  \role{实习生}{}
-  \begin{onehalfspacing}
-  基于企业需求，构建飞书\textbf{集成解决方案}；承接业务线产研的迁移工具，帮助飞书客户实现平滑迁移。
-  \end{onehalfspacing}
+  % \datedsubsection{\textbf{字节跳动}, 飞书-企业技术交付}{2021年10月 -- 2022年2月}
+  % \role{实习生}{}
+  % \begin{onehalfspacing}
+  % 基于企业需求，构建飞书\textbf{集成解决方案}；承接业务线产研的迁移工具，帮助飞书客户实现平滑迁移。
+  % \end{onehalfspacing}
 
   \datedsubsection{\textbf{红岩网校工作站}, 重庆邮电大学}{2017年6月 -- 2018年6月}
   \role{\textbf{工作站站长}}{}
@@ -43,6 +39,11 @@
     工作期间，负责管理各部门日常工作，开展150余次\textbf{技术培训}，领导20余项\textbf{应用开发}与\textbf{线上活动策划}。新媒体产品多次受到重庆各大媒体报道，并被重庆团市委积极转载，团队
     获得``\textbf{全国优秀共青团支部}"等荣誉。
   \end{onehalfspacing}
+
+\section{\faHeartO\ 获得荣誉}
+  \datedline{\textit{省级},重庆市\textbf{``优秀共青团员"}}{2017年12月}
+  \datedline{\textit{校级},重庆邮电大学\textbf{第七届``五四之星"}获得者(校园最高奖项),\textbf{网络建设之星}}{2018年 5 月}
+  \datedline{\textit{全国}, \textbf{``创青春"双创杯全国大学生创新创业大赛}, 铜奖}{2018年 6 月}
 
   % \datedsubsection{\textbf{仁荷大学}, 韩国仁川}{2018年7月 -- 2018年8月}
   % \role{交换生}{}
@@ -64,34 +65,39 @@
 
 \section{\faUsers\ 项目实践}
 
-  \datedsubsection{\textbf{飞书审计}, 海尔内部审计应用}{2021年}
-  \role{服务端开发}{}
-  \begin{onehalfspacing}
-    面向海尔内部审计需求构建的飞书集成解决方案。基于“飞书审批”事件订阅实现异步任务触发，以及用户\textbf{应用访问权限动态管理}。通过定时任务与乐观锁机制实现\textbf{延迟任务处理}。对接飞书开放平台与管理后台，实现飞书行为审计与消息审计的数据获取与处理。
-  \end{onehalfspacing}
+  % \datedsubsection{\textbf{ScamHunter}, 蚂蚁金服学术合作项目}{2022年～至今}
+  % \role{框架开发}{}
+  % \begin{onehalfspacing}
+  %   端到端的欺诈型DeFi应用检测框架。基于前端自动化测试框架与静态分析方法，实现了前端\textbf{可执行路径}与上下文语义的提取。通过自动化执行前端操作事件序列触发应用潜在的欺诈行为，并基于钱包和区块链插桩获取相关状态信息，实现基于前端操作事件与区块链交易语义一致性判断的欺诈型DeFi应用检测流程。
+  % \end{onehalfspacing}
 
   \datedsubsection{\textbf{AntFuzzer}, 蚂蚁金服学术合作项目}{2021年}
   \role{框架开发}{}
   \begin{onehalfspacing}
-    以代码覆盖率为导向的EOS智能合约漏洞检测工具。基于反射与\textbf{IOC容器}实现检测逻辑与底层服务分离，针对WASM虚拟机插桩实现\textbf{代码覆盖率}计算，并\textbf{融合AFL}，实现以代码覆盖率为导向的\textbf{测试用例生成}。基于EOS智能合约漏洞的攻击原理，实现八种主流漏洞检测方案。
+    以代码覆盖率为导向的EOSIO智能合约灰盒模糊测试工具。项目整体由AntFuzzer、EOSIO区块链、模糊测试框架AFL等三大组件构成；基于\textbf{消息队列}与\textbf{共享内存}等进程间通信方式，融合AFL作为\textbf{跨平台}参数生成引擎；基于智能合约生命周期与WASM指令解释执行过程，针对EOSIO区块链的链API函数与WASM虚拟机插桩，获取运行时链上状态，并计算智能合约\textbf{代码覆盖率}；在AntFuzzer中，基于反射与\textbf{IOC容器}实现了\textbf{漏洞检测方案}与区块链测试环境构建、组件间通信、测试用例生成、智能合约函数调用等\textbf{自动化检测流程}的分离；根据EOSIO智能合约漏洞的攻击原理，实现了八种主流漏洞的检测方案。
   \end{onehalfspacing}
 
-  \datedsubsection{\textbf{智药科技官网}, 智能药物线上筛选平台}{2019年}
+  \datedsubsection{\textbf{飞书审计}, 字节跳动实习项目}{2021年}
   \role{服务端开发}{}
   \begin{onehalfspacing}
-    具有药物筛选功能的\textbf{OMS应用}。独自完成数据库设计，实现用户、订单、文件三大模块功能接口，以及后台管理界面。
-    基于\textbf{RBAC}实现用户权限管理；通过\textbf{JWT}实现前后端分离；部署多台任务处理集群，通过\textbf{消息队列}完成异步任务处理与消息推送。
+    面向企业内部审计需求构建的飞书集成解决方案。独自完成数据库设计，实现用户、审批、审计三大模块功能接口；基于“飞书审批”事件订阅实现审计申请表单提交，与用户\textbf{应用访问权限动态管理}；基于定时任务与乐观锁机制实现\textbf{延迟任务}机制，完成飞书行为审计与消息审计的数据获取与处理。
   \end{onehalfspacing}
+  % \datedsubsection{\textbf{智药科技官网}, 智能药物线上筛选平台}{2019年}
+  % \role{服务端开发}{}
+  % \begin{onehalfspacing}
+  %   具有药物筛选功能的\textbf{OMS应用}。独自完成数据库设计，实现用户、订单、文件三大模块功能接口，以及后台管理界面。
+  %   基于\textbf{RBAC}实现用户权限管理；通过\textbf{JWT}实现前后端分离；部署多台任务处理集群，通过\textbf{消息队列}完成异步任务处理与消息推送。
+  % \end{onehalfspacing}
 
 \section{\faInfo\ 相关技能}
   \begin{onehalfspacing}
     \begin{itemize}
-      \item 了解Java、Python、PHP等编程语言，熟悉服务端编程，实现过基础的IOC框架
-      \item 了解常用Linux命令，掌握常用的运维知识，能独立维护服务器
-      \item 掌握Git命令，能解决开发中遇到的常见问题，熟悉Git Flow工作流
       \item 熟悉MySQL数据库，掌握基本的SQL优化、索引优化，了解数据库的事务机制、隔离级别
       \item 熟悉常见的设计模式，能编写规范低耦合的代码
-      \item 了解Raft、Paxos分布式一致性算法基本原理
+      \item 了解Java编程语言，熟悉服务端编程
+      \item 了解常用Linux命令，掌握常用的运维知识，能独立维护服务器
+      \item 了解Raft分布式一致性算法基本原理
+      \item 了解Git命令，能解决开发中遇到的常见问题，熟悉Git Flow工作流
     \end{itemize}
   \end{onehalfspacing}
 
